@@ -1,0 +1,37 @@
+.login-fields {
+	
+}
+
+.login-fields .field {
+	margin-bottom: 1.25em;
+	border-color: transparent;
+}
+
+.login-fields label {
+	display: none;
+}
+
+.login-fields input {
+	font-family: 'Open Sans';
+	font-size: 13px;
+	color: #8e8d8d;
+	padding: 11px 15px 10px 50px;
+	background-color: #fdfdfd;
+	size: 20px;
+	display: block;
+	margin: 0;
+	box-shadow: inset 2px 2px 4px #f1f1f1;
+}
+input[type=submit]{
+  background: #1A669C;
+  border-radius: 10px;
+  color: #FFF;
+  position: relative;
+  margin: 0px 0px  ;
+  padding: 5px;
+  width: 70px;
+}
+
+.username-field { background: url(../images/user.png) no-repeat; }
+
+.password-field { background: url(../images/password.png) no-repeat; }
